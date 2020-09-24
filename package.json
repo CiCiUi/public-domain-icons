@@ -1,0 +1,22 @@
+{
+  "name": "public-domain-icons",
+  "version": "1.0.0",
+  "description": "Icons and pictograms that are 100% free and in public domain. All of them are ready for web or publication in a cleaned-up outlined vector svg format. Their filenames include keywords to make search and browsing easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiCiUi/public-domain-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiCiUi/public-domain-icons/issues"
+  },
+  "homepage": "https://github.com/CiCiUi/public-domain-icons#readme",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}
