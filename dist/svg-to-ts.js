@@ -59,10 +59,8 @@ iconInfoList.forEach(function (iconInfo) {
     var targetSvgContent = utils_1.iconInfoToSvg(iconInfo);
     fs_1.default.writeFileSync(svgDistDir + '/' + iconInfo.fullBaseName + '.svg', targetSvgContent);
 });
-var importString = iconInfoList.map(function (iconInfo) { return "import " + iconInfo.fullBaseName + "Icon from \"./" + iconInfo.fullBaseName + ".svg\";\n"; }).join('');
-var exportString = iconInfoList.map(function (iconInfo) { return iconInfo.fullBaseName + "Icon,"; }).join('\n    ');
 var iconNameMap = iconInfoList.reduce(function (acc, iconInfo) {
     acc[iconInfo.fullBaseName] = iconInfo;
     return acc;
 }, {});
-fs_1.default.writeFileSync(svgDistDir + '/public-icons.ts.template', importString + "\nconst iconMap = " + JSON.stringify(iconNameMap, null, 4) + ";\nexport {\n    " + exportString + "\niconMap\n};\n");
+fs_1.default.writeFileSync(svgDistDir + '/public-icons.ts.template', "const iconMap: Record<string, IconInfo> = " + JSON.stringify(iconNameMap, null, 4) + ";\nexport {\n    iconMap\n};\n");

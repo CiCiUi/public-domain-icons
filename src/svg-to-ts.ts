@@ -72,10 +72,8 @@ iconInfoList.forEach(iconInfo=>{
     fs.writeFileSync(svgDistDir + '/' + iconInfo.fullBaseName + '.svg', targetSvgContent);
 });
 
-const importString = iconInfoList.map((iconInfo)=>`import ${iconInfo.fullBaseName}Icon from "./${iconInfo.fullBaseName}.svg";\n`).join('');
-const exportString = iconInfoList.map(iconInfo => `${iconInfo.fullBaseName}Icon,`).join('\n    ');
 const iconNameMap = iconInfoList.reduce<Record<string, IconInfo>>((acc, iconInfo)=>{
     acc[iconInfo.fullBaseName] = iconInfo;
     return acc;
 }, {});
-fs.writeFileSync(svgDistDir + '/public-icons.ts.template',`${importString}\nconst iconMap = ${JSON.stringify(iconNameMap, null, 4)};\nexport {\n    ${exportString}\niconMap\n};\n`, );
+fs.writeFileSync(svgDistDir + '/public-icons.ts.template',`const iconMap: Record<string, IconInfo> = ${JSON.stringify(iconNameMap, null, 4)};\nexport {\n    iconMap\n};\n`, );

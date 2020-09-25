@@ -1,6 +1,6 @@
 export interface IconPathInfo {
     path: string;
-    fillRule: string;
+    fillRule?: string;
 }
 
 export interface IconInfo {
