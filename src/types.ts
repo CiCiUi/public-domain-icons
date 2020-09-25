@@ -5,5 +5,6 @@ export interface IconPathInfo {
 
 export interface IconInfo {
     pathList: IconPathInfo[];
-    fillBaseName: string;
+    fullBaseName: string;
+    rawName: string;
 }

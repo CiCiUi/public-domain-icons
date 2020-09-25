@@ -46,7 +46,8 @@ var iconInfoList = svgFiles.reduce(function (acc, filename) {
     var bareNewFileName = bareFileNameArray.map(function (v) { return utils_1.capitalizeFirstLetter(v); }).join('');
     acc.push({
         pathList: iconPathList,
-        fillBaseName: bareNewFileName
+        fullBaseName: bareNewFileName,
+        rawName: bareFileName
     });
     return acc;
 }, []);
@@ -56,8 +57,12 @@ if (fs_1.default.existsSync(svgDistDir))
 fs_1.default.mkdirSync(svgDistDir);
 iconInfoList.forEach(function (iconInfo) {
     var targetSvgContent = utils_1.iconInfoToSvg(iconInfo);
-    fs_1.default.writeFileSync(svgDistDir + '/' + iconInfo.fillBaseName + '.svg', targetSvgContent);
+    fs_1.default.writeFileSync(svgDistDir + '/' + iconInfo.fullBaseName + '.svg', targetSvgContent);
 });
-var importString = iconInfoList.map(function (iconInfo) { return "import " + iconInfo.fillBaseName + "Icon from \"./" + iconInfo.fillBaseName + ".svg\";\n"; }).join('');
-var exportString = iconInfoList.map(function (iconInfo) { return iconInfo.fillBaseName + "Icon,"; }).join('\n    ');
-fs_1.default.writeFileSync(svgDistDir + '/public-icons.ts.template', importString + "\nexport {\n    " + exportString + "\n};\n");
+var importString = iconInfoList.map(function (iconInfo) { return "import " + iconInfo.fullBaseName + "Icon from \"./" + iconInfo.fullBaseName + ".svg\";\n"; }).join('');
+var exportString = iconInfoList.map(function (iconInfo) { return iconInfo.fullBaseName + "Icon,"; }).join('\n    ');
+var iconNameMap = iconInfoList.reduce(function (acc, iconInfo) {
+    acc[iconInfo.fullBaseName] = iconInfo;
+    return acc;
+}, {});
+fs_1.default.writeFileSync(svgDistDir + '/public-icons.ts.template', importString + "\nconst iconMap = " + JSON.stringify(iconNameMap, null, 4) + ";\nexport {\n    " + exportString + "\niconMap\n};\n");

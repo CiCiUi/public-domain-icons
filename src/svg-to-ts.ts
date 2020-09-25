@@ -55,7 +55,8 @@ const iconInfoList = svgFiles.reduce<IconInfo[]>((acc, filename)=>{
 
     acc.push({
         pathList: iconPathList,
-        fillBaseName: bareNewFileName
+        fullBaseName: bareNewFileName,
+        rawName: bareFileName
     });
 
     return acc;
@@ -68,9 +69,13 @@ fs.mkdirSync(svgDistDir);
 
 iconInfoList.forEach(iconInfo=>{
     const targetSvgContent = iconInfoToSvg(iconInfo);
-    fs.writeFileSync(svgDistDir + '/' + iconInfo.fillBaseName + '.svg', targetSvgContent);
+    fs.writeFileSync(svgDistDir + '/' + iconInfo.fullBaseName + '.svg', targetSvgContent);
 });
 
-const importString = iconInfoList.map((iconInfo)=>`import ${iconInfo.fillBaseName}Icon from "./${iconInfo.fillBaseName}.svg";\n`).join('');
-const exportString = iconInfoList.map(iconInfo => `${iconInfo.fillBaseName}Icon,`).join('\n    ');
-fs.writeFileSync(svgDistDir + '/public-icons.ts.template',`${importString}\nexport {\n    ${exportString}\n};\n`, );
+const importString = iconInfoList.map((iconInfo)=>`import ${iconInfo.fullBaseName}Icon from "./${iconInfo.fullBaseName}.svg";\n`).join('');
+const exportString = iconInfoList.map(iconInfo => `${iconInfo.fullBaseName}Icon,`).join('\n    ');
+const iconNameMap = iconInfoList.reduce<Record<string, IconInfo>>((acc, iconInfo)=>{
+    acc[iconInfo.fullBaseName] = iconInfo;
+    return acc;
+}, {});
+fs.writeFileSync(svgDistDir + '/public-icons.ts.template',`${importString}\nconst iconMap = ${JSON.stringify(iconNameMap, null, 4)};\nexport {\n    ${exportString}\niconMap\n};\n`, );
