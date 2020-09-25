@@ -58,3 +58,6 @@ iconInfoList.forEach(function (iconInfo) {
     var targetSvgContent = utils_1.iconInfoToSvg(iconInfo);
     fs_1.default.writeFileSync(svgDistDir + '/' + iconInfo.fillBaseName + '.svg', targetSvgContent);
 });
+var importString = iconInfoList.map(function (iconInfo) { return "import " + iconInfo.fillBaseName + "Icon from \"./" + iconInfo.fillBaseName + ".svg\";\n"; }).join('');
+var exportString = iconInfoList.map(function (iconInfo) { return iconInfo.fillBaseName + "Icon,"; }).join('\n    ');
+fs_1.default.writeFileSync(svgDistDir + '/public-icons.ts.template', importString + "\nexport {\n    " + exportString + "\n};\n");

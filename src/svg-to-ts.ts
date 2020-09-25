@@ -70,3 +70,7 @@ iconInfoList.forEach(iconInfo=>{
     const targetSvgContent = iconInfoToSvg(iconInfo);
     fs.writeFileSync(svgDistDir + '/' + iconInfo.fillBaseName + '.svg', targetSvgContent);
 });
+
+const importString = iconInfoList.map((iconInfo)=>`import ${iconInfo.fillBaseName}Icon from "./${iconInfo.fillBaseName}.svg";\n`).join('');
+const exportString = iconInfoList.map(iconInfo => `${iconInfo.fillBaseName}Icon,`).join('\n    ');
+fs.writeFileSync(svgDistDir + '/public-icons.ts.template',`${importString}\nexport {\n    ${exportString}\n};\n`, );

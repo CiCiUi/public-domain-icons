@@ -1,0 +1,667 @@
+import AnimalBearIcon from "./AnimalBear.svg";
+import AnimalBirdWaterfowlIcon from "./AnimalBirdWaterfowl.svg";
+import AnimalDeerGameIcon from "./AnimalDeerGame.svg";
+import AnimalDogLeashIcon from "./AnimalDogLeash.svg";
+import AnimalDogSilhouetteIcon from "./AnimalDogSilhouette.svg";
+import AnimalDogIcon from "./AnimalDog.svg";
+import AnimalFishHatcheryIcon from "./AnimalFishHatchery.svg";
+import AnimalFishIcon from "./AnimalFish.svg";
+import AnimalFishingIcon from "./AnimalFishing.svg";
+import AnimalHorseIcon from "./AnimalHorse.svg";
+import AnimalIceFishingFishingIcon from "./AnimalIceFishingFishing.svg";
+import AnimalSealIcon from "./AnimalSeal.svg";
+import AnimalSnakeRattlesnakeIcon from "./AnimalSnakeRattlesnake.svg";
+import AnimalWhaleViewingIcon from "./AnimalWhaleViewing.svg";
+import BuildingBarnAltIcon from "./BuildingBarnAlt.svg";
+import BuildingBarnIcon from "./BuildingBarn.svg";
+import BuildingBuildingBankTempleColumnsIcon from "./BuildingBuildingBankTempleColumns.svg";
+import BuildingBuildingMuseumIcon from "./BuildingBuildingMuseum.svg";
+import BuildingChapelChurchIcon from "./BuildingChapelChurch.svg";
+import BuildingCityIcon from "./BuildingCity.svg";
+import BuildingDamIcon from "./BuildingDam.svg";
+import BuildingHomeHouseDashboardIndexAltIcon from "./BuildingHomeHouseDashboardIndexAlt.svg";
+import BuildingHomeHouseDashboardIndexIcon from "./BuildingHomeHouseDashboardIndex.svg";
+import BuildingKennelIcon from "./BuildingKennel.svg";
+import BuildingLighthouseBoatLightOceanShipWaterIcon from "./BuildingLighthouseBoatLightOceanShipWater.svg";
+import BuildingLookoutTowerIcon from "./BuildingLookoutTower.svg";
+import BuildingPicnicShelterIcon from "./BuildingPicnicShelter.svg";
+import BuildingPlaygroundAltIcon from "./BuildingPlaygroundAlt.svg";
+import BuildingRangerStationIcon from "./BuildingRangerStation.svg";
+import BuildingSkylineIcon from "./BuildingSkyline.svg";
+import BuildingSleepingShelterIcon from "./BuildingSleepingShelter.svg";
+import BuildingStableIcon from "./BuildingStable.svg";
+import BuildingsFactoryIcon from "./BuildingsFactory.svg";
+import HealthAlternativeMedicineIcon from "./HealthAlternativeMedicine.svg";
+import HealthAnesthesiaIcon from "./HealthAnesthesia.svg";
+import HealthBabyPersonInfantHumanHospitalHealthcareHealthChildBirthPregnancyIcon from "./HealthBabyPersonInfantHumanHospitalHealthcareHealthChildBirthPregnancy.svg";
+import HealthCareStaffAreaNurseIcon from "./HealthCareStaffAreaNurse.svg";
+import HealthCathLabDoctorHealthHealthCareHospitalIcon from "./HealthCathLabDoctorHealthHealthCareHospital.svg";
+import HealthDermatologyAcneDoctorHeadHealthCareHospitalHumanMedicinePersonIcon from "./HealthDermatologyAcneDoctorHeadHealthCareHospitalHumanMedicinePerson.svg";
+import HealthDiabetesIcon from "./HealthDiabetes.svg";
+import HealthFamilyPracticeIcon from "./HealthFamilyPractice.svg";
+import HealthGeneticsHumanHospitalHealthcareHealthFamilyDoctorDnaBiologyPersonIcon from "./HealthGeneticsHumanHospitalHealthcareHealthFamilyDoctorDnaBiologyPerson.svg";
+import HealthHealthEducationDoctorHealthCareHospitalHumanMedicinePersonTeacherIcon from "./HealthHealthEducationDoctorHealthCareHospitalHumanMedicinePersonTeacher.svg";
+import HealthImmunizationsIcon from "./HealthImmunizations.svg";
+import HealthInpatientIcon from "./HealthInpatient.svg";
+import HealthMriHealthCareHospitalMedicineRadiationXRayIcon from "./HealthMriHealthCareHospitalMedicineRadiationXRay.svg";
+import HealthNeurologyIcon from "./HealthNeurology.svg";
+import HealthOutpatientIcon from "./HealthOutpatient.svg";
+import HealthPhysicalTherapyHealthCareHospitalHumanMedicinePersonSportsIcon from "./HealthPhysicalTherapyHealthCareHospitalHumanMedicinePersonSports.svg";
+import HealthSurgeryIcon from "./HealthSurgery.svg";
+import HealthXRayDoctorHealthCareHospitalInjuryMedicineRadiationIcon from "./HealthXRayDoctorHealthCareHospitalInjuryMedicineRadiation.svg";
+import HealthXRayRadiationPersonMedicineHumanHospitalHealthCareHealthDoctorRadiologyIcon from "./HealthXRayRadiationPersonMedicineHumanHospitalHealthCareHealthDoctorRadiology.svg";
+import HumanAccessSymbolIcon from "./HumanAccessSymbol.svg";
+import HumanAmphitheaterIcon from "./HumanAmphitheater.svg";
+import HumanArcheryIcon from "./HumanArchery.svg";
+import HumanArrivingFlightsIcon from "./HumanArrivingFlights.svg";
+import HumanBabyNurseryIcon from "./HumanBabyNursery.svg";
+import HumanBabyIcon from "./HumanBaby.svg";
+import HumanBarberShopHaircutIcon from "./HumanBarberShopHaircut.svg";
+import HumanBaseballIcon from "./HumanBaseball.svg";
+import HumanBeautySalonHaircutIcon from "./HumanBeautySalonHaircut.svg";
+import HumanBedIcon from "./HumanBed.svg";
+import HumanCanoeIcon from "./HumanCanoe.svg";
+import HumanCautionDangerIcon from "./HumanCautionDanger.svg";
+import HumanChairLiftIcon from "./HumanChairLift.svg";
+import HumanClimbingIcon from "./HumanClimbing.svg";
+import HumanCrossCountrySkiIcon from "./HumanCrossCountrySki.svg";
+import HumanCustomsIcon from "./HumanCustoms.svg";
+import HumanCyclingBicycleTrailBikeIcon from "./HumanCyclingBicycleTrailBike.svg";
+import HumanDirtBikeIcon from "./HumanDirtBike.svg";
+import HumanDivingIcon from "./HumanDiving.svg";
+import HumanDownhillSkiingIcon from "./HumanDownhillSkiing.svg";
+import HumanDrinkingFountainWaterFountainIcon from "./HumanDrinkingFountainWaterFountain.svg";
+import HumanFallingPersonIcon from "./HumanFallingPerson.svg";
+import HumanFamilyHumanIcon from "./HumanFamilyHuman.svg";
+import HumanFishingPierIcon from "./HumanFishingPier.svg";
+import HumanGolfingIcon from "./HumanGolfing.svg";
+import HumanHangGlidingIcon from "./HumanHangGliding.svg";
+import HumanHappyPersonIcon from "./HumanHappyPerson.svg";
+import HumanHeadIcon from "./HumanHead.svg";
+import HumanHorseRidingIcon from "./HumanHorseRiding.svg";
+import HumanHotelInformationIcon from "./HumanHotelInformation.svg";
+import HumanHotelIcon from "./HumanHotel.svg";
+import HumanIceSkatingIcon from "./HumanIceSkating.svg";
+import HumanImmigrationIcon from "./HumanImmigration.svg";
+import HumanIntensiveCareIcon from "./HumanIntensiveCare.svg";
+import HumanJetSkiPersonalWatercraftIcon from "./HumanJetSkiPersonalWatercraft.svg";
+import HumanKayakingIcon from "./HumanKayaking.svg";
+import HumanLibraryReadingIcon from "./HumanLibraryReading.svg";
+import HumanManHumanIcon from "./HumanManHuman.svg";
+import HumanMentalHealthIcon from "./HumanMentalHealth.svg";
+import HumanMotorboatIcon from "./HumanMotorboat.svg";
+import HumanPeopleIcon from "./HumanPeople.svg";
+import HumanPersonIcon from "./HumanPerson.svg";
+import HumanPlaygroundIcon from "./HumanPlayground.svg";
+import HumanPoliceIcon from "./HumanPolice.svg";
+import HumanPresentationIcon from "./HumanPresentation.svg";
+import HumanReadingIcon from "./HumanReading.svg";
+import HumanRegistrationAdministrationDeskHospitalHumanPersonIcon from "./HumanRegistrationAdministrationDeskHospitalHumanPerson.svg";
+import HumanRiverRaftingIcon from "./HumanRiverRafting.svg";
+import HumanRollerbladingIcon from "./HumanRollerblading.svg";
+import HumanRowboatIcon from "./HumanRowboat.svg";
+import HumanRunningIcon from "./HumanRunning.svg";
+import HumanScubaDivingIcon from "./HumanScubaDiving.svg";
+import HumanShowerIcon from "./HumanShower.svg";
+import HumanSittingManIcon from "./HumanSittingMan.svg";
+import HumanSkateboardingIcon from "./HumanSkateboarding.svg";
+import HumanSkiJumpIcon from "./HumanSkiJump.svg";
+import HumanSkiingIcon from "./HumanSkiing.svg";
+import HumanSleddingIcon from "./HumanSledding.svg";
+import HumanSnowboardingIcon from "./HumanSnowboarding.svg";
+import HumanSnowmobileTrailIcon from "./HumanSnowmobileTrail.svg";
+import HumanSocialServicesCharityFamilyGovernmentHumanPersonIcon from "./HumanSocialServicesCharityFamilyGovernmentHumanPerson.svg";
+import HumanSquatingPersonIcon from "./HumanSquatingPerson.svg";
+import HumanStrollerWithAKidIcon from "./HumanStrollerWithAKid.svg";
+import HumanSurfingIcon from "./HumanSurfing.svg";
+import HumanSwimmingIcon from "./HumanSwimming.svg";
+import HumanSwingPlaygroundIcon from "./HumanSwingPlayground.svg";
+import HumanTennisIcon from "./HumanTennis.svg";
+import HumanTicketPurchaseTicketCounterIcon from "./HumanTicketPurchaseTicketCounter.svg";
+import HumanTorsoIcon from "./HumanTorso.svg";
+import HumanTrailheadIcon from "./HumanTrailhead.svg";
+import HumanTrashGarbageLitter2Icon from "./HumanTrashGarbageLitter2.svg";
+import HumanTrashGarbageLitterIcon from "./HumanTrashGarbageLitter.svg";
+import HumanUnisexRestroomToiletsIcon from "./HumanUnisexRestroomToilets.svg";
+import HumanViewIcon from "./HumanView.svg";
+import HumanWadingIcon from "./HumanWading.svg";
+import HumanWaitingRoomHealthCareHospitalHumanMedicineOfficePersonIcon from "./HumanWaitingRoomHealthCareHospitalHumanMedicineOfficePerson.svg";
+import HumanWaitingRoomIcon from "./HumanWaitingRoom.svg";
+import HumanWaterskiingIcon from "./HumanWaterskiing.svg";
+import HumanWindsurfingIcon from "./HumanWindsurfing.svg";
+import HumanWomanHumanIcon from "./HumanWomanHuman.svg";
+import HumanWomanTorsoIcon from "./HumanWomanTorso.svg";
+import ObjectAnchorMarinaIcon from "./ObjectAnchorMarina.svg";
+import ObjectAppleIcon from "./ObjectApple.svg";
+import ObjectAxeFirewoodIcon from "./ObjectAxeFirewood.svg";
+import ObjectAxeIcon from "./ObjectAxe.svg";
+import ObjectBaggageBaggageCheckBaggageClaimSuitcaseCaseIcon from "./ObjectBaggageBaggageCheckBaggageClaimSuitcaseCase.svg";
+import ObjectBarCocktailMartiniIcon from "./ObjectBarCocktailMartini.svg";
+import ObjectBeachParasolUmbrellaIcon from "./ObjectBeachParasolUmbrella.svg";
+import ObjectBinocularsSearchIcon from "./ObjectBinocularsSearch.svg";
+import ObjectBookLibraryIcon from "./ObjectBookLibrary.svg";
+import ObjectBookReadBookIcon from "./ObjectBookReadBook.svg";
+import ObjectBookIcon from "./ObjectBook.svg";
+import ObjectBottleAltIcon from "./ObjectBottleAlt.svg";
+import ObjectBottleIcon from "./ObjectBottle.svg";
+import ObjectBurgerIcon from "./ObjectBurger.svg";
+import ObjectCabinetFilesIcon from "./ObjectCabinetFiles.svg";
+import ObjectCalculatorPadComputeIcon from "./ObjectCalculatorPadCompute.svg";
+import ObjectCameraPhotoPictureFilmAltIcon from "./ObjectCameraPhotoPictureFilmAlt.svg";
+import ObjectCameraPhotoPictureFilmIcon from "./ObjectCameraPhotoPictureFilm.svg";
+import ObjectCampfireIcon from "./ObjectCampfire.svg";
+import ObjectCanAltIcon from "./ObjectCanAlt.svg";
+import ObjectCanIcon from "./ObjectCan.svg";
+import ObjectCansAndBottlesIcon from "./ObjectCansAndBottles.svg";
+import ObjectChartsIcon from "./ObjectCharts.svg";
+import ObjectClockTimeIcon from "./ObjectClockTime.svg";
+import ObjectCoatCheckClothesHangerIcon from "./ObjectCoatCheckClothesHanger.svg";
+import ObjectCombIcon from "./ObjectComb.svg";
+import ObjectCupCoffeeTeaDrinkCoffeeshopAltIcon from "./ObjectCupCoffeeTeaDrinkCoffeeshopAlt.svg";
+import ObjectCupCoffeeTeaDrinkCoffeeshopIcon from "./ObjectCupCoffeeTeaDrinkCoffeeshop.svg";
+import ObjectCurrencyExchangeIcon from "./ObjectCurrencyExchange.svg";
+import ObjectCutleryKnifeForkSilverwareIcon from "./ObjectCutleryKnifeForkSilverware.svg";
+import ObjectDnaIcon from "./ObjectDna.svg";
+import ObjectDrinkingWaterIcon from "./ObjectDrinkingWater.svg";
+import ObjectDrinksIcon from "./ObjectDrinks.svg";
+import ObjectEarphonesIcon from "./ObjectEarphones.svg";
+import ObjectEnvelopeLetterMailStampSendInboxMessageWhiteIcon from "./ObjectEnvelopeLetterMailStampSendInboxMessageWhite.svg";
+import ObjectEnvelopeLetterMailStampSendInboxMessageIcon from "./ObjectEnvelopeLetterMailStampSendInboxMessage.svg";
+import ObjectFastFoodIcon from "./ObjectFastFood.svg";
+import ObjectFireAltIcon from "./ObjectFireAlt.svg";
+import ObjectFireExtinguisherIcon from "./ObjectFireExtinguisher.svg";
+import ObjectFlagIcon from "./ObjectFlag.svg";
+import ObjectGasGasStationPetrolIcon from "./ObjectGasGasStationPetrol.svg";
+import ObjectHaircutIcon from "./ObjectHaircut.svg";
+import ObjectKeyCarDoorLockSecretIcon from "./ObjectKeyCarDoorLockSecret.svg";
+import ObjectKnifeIcon from "./ObjectKnife.svg";
+import ObjectLaboratoryIcon from "./ObjectLaboratory.svg";
+import ObjectLeafNatureGreenTreeIcon from "./ObjectLeafNatureGreenTree.svg";
+import ObjectLifeJacketIcon from "./ObjectLifeJacket.svg";
+import ObjectLockSecurePrivateSafeUnlockedIcon from "./ObjectLockSecurePrivateSafeUnlocked.svg";
+import ObjectLockSecurePrivateSafeIcon from "./ObjectLockSecurePrivateSafe.svg";
+import ObjectLostAndFoundIcon from "./ObjectLostAndFound.svg";
+import ObjectMailEmailLetterIcon from "./ObjectMailEmailLetter.svg";
+import ObjectMedicalRecordsAdministrationFileFolderHealthHealthCareHospitalMedicineIcon from "./ObjectMedicalRecordsAdministrationFileFolderHealthHealthCareHospitalMedicine.svg";
+import ObjectMetalDetectorIcon from "./ObjectMetalDetector.svg";
+import ObjectMicroscopeIcon from "./ObjectMicroscope.svg";
+import ObjectMoneyIcon from "./ObjectMoney.svg";
+import ObjectPanelIcon from "./ObjectPanel.svg";
+import ObjectPaperTabletSlideIcon from "./ObjectPaperTabletSlide.svg";
+import ObjectPhoneTabletIcon from "./ObjectPhoneTablet.svg";
+import ObjectPhoneTelephoneLandlineIcon from "./ObjectPhoneTelephoneLandline.svg";
+import ObjectPickIcon from "./ObjectPick.svg";
+import ObjectPicnicTableIcon from "./ObjectPicnicTable.svg";
+import ObjectPresentIcon from "./ObjectPresent.svg";
+import ObjectRadioBoomBoxStereoIcon from "./ObjectRadioBoomBoxStereo.svg";
+import ObjectRestaurantFoodIcon from "./ObjectRestaurantFood.svg";
+import ObjectRockCollectingIcon from "./ObjectRockCollecting.svg";
+import ObjectRubbishTrashCanWasteBinEmptyIcon from "./ObjectRubbishTrashCanWasteBinEmpty.svg";
+import ObjectScissorsIcon from "./ObjectScissors.svg";
+import ObjectSearchSearchFindMagnifyMagnifyingIcon from "./ObjectSearchSearchFindMagnifyMagnifying.svg";
+import ObjectSearchSearchFindMagnifyMagnifyingIcon from "./ObjectSearchSearchFindMagnifyMagnifying.svg";
+import ObjectShopsStoreIcon from "./ObjectShopsStore.svg";
+import ObjectSmokingCigaretteIcon from "./ObjectSmokingCigarette.svg";
+import ObjectSnowIcon from "./ObjectSnow.svg";
+import ObjectSnowflakeSnowflakeIcon from "./ObjectSnowflakeSnowflake.svg";
+import ObjectStrollerIcon from "./ObjectStroller.svg";
+import ObjectSunWeatherShineBrightnessIcon from "./ObjectSunWeatherShineBrightness.svg";
+import ObjectSunIcon from "./ObjectSun.svg";
+import ObjectTelephoneIcon from "./ObjectTelephone.svg";
+import ObjectToothDentistIcon from "./ObjectToothDentist.svg";
+import ObjectTrashcanIcon from "./ObjectTrashcan.svg";
+import ObjectTreeTreePineForestChristmasIcon from "./ObjectTreeTreePineForestChristmas.svg";
+import ObjectUmbrellaIcon from "./ObjectUmbrella.svg";
+import ObjectWashingMachineIcon from "./ObjectWashingMachine.svg";
+import ObjectWatchTimeLoadingIcon from "./ObjectWatchTimeLoading.svg";
+import ObjectWrenchIcon from "./ObjectWrench.svg";
+import SymbolAlertIcon from "./SymbolAlert.svg";
+import SymbolArrowDownArrowArrowDownDirectionIcon from "./SymbolArrowDownArrowArrowDownDirection.svg";
+import SymbolArrowLeftArrowArrowLeftDirectionIcon from "./SymbolArrowLeftArrowArrowLeftDirection.svg";
+import SymbolArrowRightArrowArrowRightDirectionIcon from "./SymbolArrowRightArrowArrowRightDirection.svg";
+import SymbolArrowStraightAheadAltIcon from "./SymbolArrowStraightAheadAlt.svg";
+import SymbolArrowUpArrowArrowUpDirectionIcon from "./SymbolArrowUpArrowArrowUpDirection.svg";
+import SymbolArrowIcon from "./SymbolArrow.svg";
+import SymbolAudioSoundVolumeMusicDownIcon from "./SymbolAudioSoundVolumeMusicDown.svg";
+import SymbolAudioSoundVolumeMusicIcon from "./SymbolAudioSoundVolumeMusic.svg";
+import SymbolBadgeIcon from "./SymbolBadge.svg";
+import SymbolBangExclamationPointPunctuationIcon from "./SymbolBangExclamationPointPunctuation.svg";
+import SymbolBoltLightningIcon from "./SymbolBoltLightning.svg";
+import SymbolBubbleAltIcon from "./SymbolBubbleAlt.svg";
+import SymbolBubbleMessageChatIcon from "./SymbolBubbleMessageChat.svg";
+import SymbolBubbleMessageMessageImTextIcon from "./SymbolBubbleMessageMessageImText.svg";
+import SymbolBubbleIcon from "./SymbolBubble.svg";
+import SymbolCampgroundIcon from "./SymbolCampground.svg";
+import SymbolCardiologyIcon from "./SymbolCardiology.svg";
+import SymbolCashierIcon from "./SymbolCashier.svg";
+import SymbolCharityIcon from "./SymbolCharity.svg";
+import SymbolCheckTickCheckmarkPunctuationCorrectGradeIcon from "./SymbolCheckTickCheckmarkPunctuationCorrectGrade.svg";
+import SymbolCircleShapeGeometryIcon from "./SymbolCircleShapeGeometry.svg";
+import SymbolCloudWeatherButtRainIcon from "./SymbolCloudWeatherButtRain.svg";
+import SymbolCropResizeIcon from "./SymbolCropResize.svg";
+import SymbolCrossDeleteRemoveMultiplyIcon from "./SymbolCrossDeleteRemoveMultiply.svg";
+import SymbolCursorPointerMouseIcon from "./SymbolCursorPointerMouse.svg";
+import SymbolDeniedRestrictedPrivateNoEntryIcon from "./SymbolDeniedRestrictedPrivateNoEntry.svg";
+import SymbolDownloadEnterEmergencyIcon from "./SymbolDownloadEnterEmergency.svg";
+import SymbolDownstairsStairsIcon from "./SymbolDownstairsStairs.svg";
+import SymbolDropIcon from "./SymbolDrop.svg";
+import SymbolElevatorIcon from "./SymbolElevator.svg";
+import SymbolEntranceEnterEmergencyIcon from "./SymbolEntranceEnterEmergency.svg";
+import SymbolEscalatorDownIcon from "./SymbolEscalatorDown.svg";
+import SymbolEscalatorUpIcon from "./SymbolEscalatorUp.svg";
+import SymbolEscalatorIcon from "./SymbolEscalator.svg";
+import SymbolExitLeaveEmergencyIcon from "./SymbolExitLeaveEmergency.svg";
+import SymbolExitIcon from "./SymbolExit.svg";
+import SymbolExternalShareLinkOutsideIcon from "./SymbolExternalShareLinkOutside.svg";
+import SymbolEyePupilBigBrotherSurveillanceIcon from "./SymbolEyePupilBigBrotherSurveillance.svg";
+import SymbolEyeIcon from "./SymbolEye.svg";
+import SymbolFallingRocksIcon from "./SymbolFallingRocks.svg";
+import SymbolFileDocument.txtTextIcon from "./SymbolFileDocument.txtText.svg";
+import SymbolFireIcon from "./SymbolFire.svg";
+import SymbolFirstAidIcon from "./SymbolFirstAid.svg";
+import SymbolFolderContainerFileOpenIcon from "./SymbolFolderContainerFileOpen.svg";
+import SymbolFolderIcon from "./SymbolFolder.svg";
+import SymbolFoldersIcon from "./SymbolFolders.svg";
+import SymbolGearSettingsPreferencesIcon from "./SymbolGearSettingsPreferences.svg";
+import SymbolGrainIcon from "./SymbolGrain.svg";
+import SymbolHandIcon from "./SymbolHand.svg";
+import SymbolHeartHeartLoveLikeSaveIcon from "./SymbolHeartHeartLoveLikeSave.svg";
+import SymbolHospitalIcon from "./SymbolHospital.svg";
+import SymbolInformationQuestionHelpIcon from "./SymbolInformationQuestionHelp.svg";
+import SymbolLeftChevronChevronLeftDirectionIcon from "./SymbolLeftChevronChevronLeftDirection.svg";
+import SymbolLocationGpsGeoTrackIcon from "./SymbolLocationGpsGeoTrack.svg";
+import SymbolLotusIcon from "./SymbolLotus.svg";
+import SymbolMetroIcon from "./SymbolMetro.svg";
+import SymbolMoonWeatherShineBrightnessIcon from "./SymbolMoonWeatherShineBrightness.svg";
+import SymbolNextIcon from "./SymbolNext.svg";
+import SymbolNoDogsIcon from "./SymbolNoDogs.svg";
+import SymbolNoEntryDoNotEnterIcon from "./SymbolNoEntryDoNotEnter.svg";
+import SymbolNoParkingIcon from "./SymbolNoParking.svg";
+import SymbolNoSmokingIcon from "./SymbolNoSmoking.svg";
+import SymbolNoIcon from "./SymbolNo.svg";
+import SymbolNoteMusicCrotchetQuaverQuarterNoteIcon from "./SymbolNoteMusicCrotchetQuaverQuarterNote.svg";
+import SymbolParkingIcon from "./SymbolParking.svg";
+import SymbolPinMapLocationPositionIcon from "./SymbolPinMapLocationPosition.svg";
+import SymbolPlayIcon from "./SymbolPlay.svg";
+import SymbolPlusAddAdditionMathsOperatorsIcon from "./SymbolPlusAddAdditionMathsOperators.svg";
+import SymbolPowerOnOffIcon from "./SymbolPowerOnOff.svg";
+import SymbolPreviousIcon from "./SymbolPrevious.svg";
+import SymbolRecyclingIcon from "./SymbolRecycling.svg";
+import SymbolReloadReloadRefreshIcon from "./SymbolReloadReloadRefresh.svg";
+import SymbolResizeDimensionAdjustSizeIcon from "./SymbolResizeDimensionAdjustSize.svg";
+import SymbolRightChevronChevronRightDirectionIcon from "./SymbolRightChevronChevronRightDirection.svg";
+import SymbolSquareShapeGeometryStopIcon from "./SymbolSquareShapeGeometryStop.svg";
+import SymbolStairsIcon from "./SymbolStairs.svg";
+import SymbolStarStarLikeSaveFavouriteIcon from "./SymbolStarStarLikeSaveFavourite.svg";
+import SymbolTelephoneVolumeControlIcon from "./SymbolTelephoneVolumeControl.svg";
+import SymbolThumbnailsIcon from "./SymbolThumbnails.svg";
+import SymbolToggleAdjustIcon from "./SymbolToggleAdjust.svg";
+import SymbolTriangleEmptyIcon from "./SymbolTriangleEmpty.svg";
+import SymbolTriangleShapeGeometryIcon from "./SymbolTriangleShapeGeometry.svg";
+import SymbolTunnelIcon from "./SymbolTunnel.svg";
+import SymbolUploadEnterEmergencyIcon from "./SymbolUploadEnterEmergency.svg";
+import SymbolZapIcon from "./SymbolZap.svg";
+import SymbolZoomInIcon from "./SymbolZoomIn.svg";
+import SymbolZoomOutIcon from "./SymbolZoomOut.svg";
+import Transport4WheelerAtvIcon from "./Transport4WheelerAtv.svg";
+import TransportAirplaneAirportIcon from "./TransportAirplaneAirport.svg";
+import TransportAmbulanceIcon from "./TransportAmbulance.svg";
+import TransportBikeCyclingBicycleTrailBikeIcon from "./TransportBikeCyclingBicycleTrailBike.svg";
+import TransportBoatLaunchIcon from "./TransportBoatLaunch.svg";
+import TransportBusIcon from "./TransportBus.svg";
+import TransportCamperTrailerIcon from "./TransportCamperTrailer.svg";
+import TransportCarAltIcon from "./TransportCarAlt.svg";
+import TransportCarRentalIcon from "./TransportCarRental.svg";
+import TransportCarIcon from "./TransportCar.svg";
+import TransportFerryBoatTourIcon from "./TransportFerryBoatTour.svg";
+import TransportGondolaTramIcon from "./TransportGondolaTram.svg";
+import TransportGroundTransportationIcon from "./TransportGroundTransportation.svg";
+import TransportHelicopterHeliportIcon from "./TransportHelicopterHeliport.svg";
+import TransportJeepIcon from "./TransportJeep.svg";
+import TransportPickupIcon from "./TransportPickup.svg";
+import TransportPlaneIcon from "./TransportPlane.svg";
+import TransportRvCamperIcon from "./TransportRvCamper.svg";
+import TransportSailBoatIcon from "./TransportSailBoat.svg";
+import TransportSeaPlaneAirplaneIcon from "./TransportSeaPlaneAirplane.svg";
+import TransportShipFerryIcon from "./TransportShipFerry.svg";
+import TransportTaxiCabIcon from "./TransportTaxiCab.svg";
+import TransportTractorIcon from "./TransportTractor.svg";
+import TransportTrainRailTransportationIcon from "./TransportTrainRailTransportation.svg";
+import TransportTruckLorryIcon from "./TransportTruckLorry.svg";
+import TransportTruckIcon from "./TransportTruck.svg";
+import TransportVespaIcon from "./TransportVespa.svg";
+
+export {
+    AnimalBearIcon,
+    AnimalBirdWaterfowlIcon,
+    AnimalDeerGameIcon,
+    AnimalDogLeashIcon,
+    AnimalDogSilhouetteIcon,
+    AnimalDogIcon,
+    AnimalFishHatcheryIcon,
+    AnimalFishIcon,
+    AnimalFishingIcon,
+    AnimalHorseIcon,
+    AnimalIceFishingFishingIcon,
+    AnimalSealIcon,
+    AnimalSnakeRattlesnakeIcon,
+    AnimalWhaleViewingIcon,
+    BuildingBarnAltIcon,
+    BuildingBarnIcon,
+    BuildingBuildingBankTempleColumnsIcon,
+    BuildingBuildingMuseumIcon,
+    BuildingChapelChurchIcon,
+    BuildingCityIcon,
+    BuildingDamIcon,
+    BuildingHomeHouseDashboardIndexAltIcon,
+    BuildingHomeHouseDashboardIndexIcon,
+    BuildingKennelIcon,
+    BuildingLighthouseBoatLightOceanShipWaterIcon,
+    BuildingLookoutTowerIcon,
+    BuildingPicnicShelterIcon,
+    BuildingPlaygroundAltIcon,
+    BuildingRangerStationIcon,
+    BuildingSkylineIcon,
+    BuildingSleepingShelterIcon,
+    BuildingStableIcon,
+    BuildingsFactoryIcon,
+    HealthAlternativeMedicineIcon,
+    HealthAnesthesiaIcon,
+    HealthBabyPersonInfantHumanHospitalHealthcareHealthChildBirthPregnancyIcon,
+    HealthCareStaffAreaNurseIcon,
+    HealthCathLabDoctorHealthHealthCareHospitalIcon,
+    HealthDermatologyAcneDoctorHeadHealthCareHospitalHumanMedicinePersonIcon,
+    HealthDiabetesIcon,
+    HealthFamilyPracticeIcon,
+    HealthGeneticsHumanHospitalHealthcareHealthFamilyDoctorDnaBiologyPersonIcon,
+    HealthHealthEducationDoctorHealthCareHospitalHumanMedicinePersonTeacherIcon,
+    HealthImmunizationsIcon,
+    HealthInpatientIcon,
+    HealthMriHealthCareHospitalMedicineRadiationXRayIcon,
+    HealthNeurologyIcon,
+    HealthOutpatientIcon,
+    HealthPhysicalTherapyHealthCareHospitalHumanMedicinePersonSportsIcon,
+    HealthSurgeryIcon,
+    HealthXRayDoctorHealthCareHospitalInjuryMedicineRadiationIcon,
+    HealthXRayRadiationPersonMedicineHumanHospitalHealthCareHealthDoctorRadiologyIcon,
+    HumanAccessSymbolIcon,
+    HumanAmphitheaterIcon,
+    HumanArcheryIcon,
+    HumanArrivingFlightsIcon,
+    HumanBabyNurseryIcon,
+    HumanBabyIcon,
+    HumanBarberShopHaircutIcon,
+    HumanBaseballIcon,
+    HumanBeautySalonHaircutIcon,
+    HumanBedIcon,
+    HumanCanoeIcon,
+    HumanCautionDangerIcon,
+    HumanChairLiftIcon,
+    HumanClimbingIcon,
+    HumanCrossCountrySkiIcon,
+    HumanCustomsIcon,
+    HumanCyclingBicycleTrailBikeIcon,
+    HumanDirtBikeIcon,
+    HumanDivingIcon,
+    HumanDownhillSkiingIcon,
+    HumanDrinkingFountainWaterFountainIcon,
+    HumanFallingPersonIcon,
+    HumanFamilyHumanIcon,
+    HumanFishingPierIcon,
+    HumanGolfingIcon,
+    HumanHangGlidingIcon,
+    HumanHappyPersonIcon,
+    HumanHeadIcon,
+    HumanHorseRidingIcon,
+    HumanHotelInformationIcon,
+    HumanHotelIcon,
+    HumanIceSkatingIcon,
+    HumanImmigrationIcon,
+    HumanIntensiveCareIcon,
+    HumanJetSkiPersonalWatercraftIcon,
+    HumanKayakingIcon,
+    HumanLibraryReadingIcon,
+    HumanManHumanIcon,
+    HumanMentalHealthIcon,
+    HumanMotorboatIcon,
+    HumanPeopleIcon,
+    HumanPersonIcon,
+    HumanPlaygroundIcon,
+    HumanPoliceIcon,
+    HumanPresentationIcon,
+    HumanReadingIcon,
+    HumanRegistrationAdministrationDeskHospitalHumanPersonIcon,
+    HumanRiverRaftingIcon,
+    HumanRollerbladingIcon,
+    HumanRowboatIcon,
+    HumanRunningIcon,
+    HumanScubaDivingIcon,
+    HumanShowerIcon,
+    HumanSittingManIcon,
+    HumanSkateboardingIcon,
+    HumanSkiJumpIcon,
+    HumanSkiingIcon,
+    HumanSleddingIcon,
+    HumanSnowboardingIcon,
+    HumanSnowmobileTrailIcon,
+    HumanSocialServicesCharityFamilyGovernmentHumanPersonIcon,
+    HumanSquatingPersonIcon,
+    HumanStrollerWithAKidIcon,
+    HumanSurfingIcon,
+    HumanSwimmingIcon,
+    HumanSwingPlaygroundIcon,
+    HumanTennisIcon,
+    HumanTicketPurchaseTicketCounterIcon,
+    HumanTorsoIcon,
+    HumanTrailheadIcon,
+    HumanTrashGarbageLitter2Icon,
+    HumanTrashGarbageLitterIcon,
+    HumanUnisexRestroomToiletsIcon,
+    HumanViewIcon,
+    HumanWadingIcon,
+    HumanWaitingRoomHealthCareHospitalHumanMedicineOfficePersonIcon,
+    HumanWaitingRoomIcon,
+    HumanWaterskiingIcon,
+    HumanWindsurfingIcon,
+    HumanWomanHumanIcon,
+    HumanWomanTorsoIcon,
+    ObjectAnchorMarinaIcon,
+    ObjectAppleIcon,
+    ObjectAxeFirewoodIcon,
+    ObjectAxeIcon,
+    ObjectBaggageBaggageCheckBaggageClaimSuitcaseCaseIcon,
+    ObjectBarCocktailMartiniIcon,
+    ObjectBeachParasolUmbrellaIcon,
+    ObjectBinocularsSearchIcon,
+    ObjectBookLibraryIcon,
+    ObjectBookReadBookIcon,
+    ObjectBookIcon,
+    ObjectBottleAltIcon,
+    ObjectBottleIcon,
+    ObjectBurgerIcon,
+    ObjectCabinetFilesIcon,
+    ObjectCalculatorPadComputeIcon,
+    ObjectCameraPhotoPictureFilmAltIcon,
+    ObjectCameraPhotoPictureFilmIcon,
+    ObjectCampfireIcon,
+    ObjectCanAltIcon,
+    ObjectCanIcon,
+    ObjectCansAndBottlesIcon,
+    ObjectChartsIcon,
+    ObjectClockTimeIcon,
+    ObjectCoatCheckClothesHangerIcon,
+    ObjectCombIcon,
+    ObjectCupCoffeeTeaDrinkCoffeeshopAltIcon,
+    ObjectCupCoffeeTeaDrinkCoffeeshopIcon,
+    ObjectCurrencyExchangeIcon,
+    ObjectCutleryKnifeForkSilverwareIcon,
+    ObjectDnaIcon,
+    ObjectDrinkingWaterIcon,
+    ObjectDrinksIcon,
+    ObjectEarphonesIcon,
+    ObjectEnvelopeLetterMailStampSendInboxMessageWhiteIcon,
+    ObjectEnvelopeLetterMailStampSendInboxMessageIcon,
+    ObjectFastFoodIcon,
+    ObjectFireAltIcon,
+    ObjectFireExtinguisherIcon,
+    ObjectFlagIcon,
+    ObjectGasGasStationPetrolIcon,
+    ObjectHaircutIcon,
+    ObjectKeyCarDoorLockSecretIcon,
+    ObjectKnifeIcon,
+    ObjectLaboratoryIcon,
+    ObjectLeafNatureGreenTreeIcon,
+    ObjectLifeJacketIcon,
+    ObjectLockSecurePrivateSafeUnlockedIcon,
+    ObjectLockSecurePrivateSafeIcon,
+    ObjectLostAndFoundIcon,
+    ObjectMailEmailLetterIcon,
+    ObjectMedicalRecordsAdministrationFileFolderHealthHealthCareHospitalMedicineIcon,
+    ObjectMetalDetectorIcon,
+    ObjectMicroscopeIcon,
+    ObjectMoneyIcon,
+    ObjectPanelIcon,
+    ObjectPaperTabletSlideIcon,
+    ObjectPhoneTabletIcon,
+    ObjectPhoneTelephoneLandlineIcon,
+    ObjectPickIcon,
+    ObjectPicnicTableIcon,
+    ObjectPresentIcon,
+    ObjectRadioBoomBoxStereoIcon,
+    ObjectRestaurantFoodIcon,
+    ObjectRockCollectingIcon,
+    ObjectRubbishTrashCanWasteBinEmptyIcon,
+    ObjectScissorsIcon,
+    ObjectSearchSearchFindMagnifyMagnifyingIcon,
+    ObjectSearchSearchFindMagnifyMagnifyingIcon,
+    ObjectShopsStoreIcon,
+    ObjectSmokingCigaretteIcon,
+    ObjectSnowIcon,
+    ObjectSnowflakeSnowflakeIcon,
+    ObjectStrollerIcon,
+    ObjectSunWeatherShineBrightnessIcon,
+    ObjectSunIcon,
+    ObjectTelephoneIcon,
+    ObjectToothDentistIcon,
+    ObjectTrashcanIcon,
+    ObjectTreeTreePineForestChristmasIcon,
+    ObjectUmbrellaIcon,
+    ObjectWashingMachineIcon,
+    ObjectWatchTimeLoadingIcon,
+    ObjectWrenchIcon,
+    SymbolAlertIcon,
+    SymbolArrowDownArrowArrowDownDirectionIcon,
+    SymbolArrowLeftArrowArrowLeftDirectionIcon,
+    SymbolArrowRightArrowArrowRightDirectionIcon,
+    SymbolArrowStraightAheadAltIcon,
+    SymbolArrowUpArrowArrowUpDirectionIcon,
+    SymbolArrowIcon,
+    SymbolAudioSoundVolumeMusicDownIcon,
+    SymbolAudioSoundVolumeMusicIcon,
+    SymbolBadgeIcon,
+    SymbolBangExclamationPointPunctuationIcon,
+    SymbolBoltLightningIcon,
+    SymbolBubbleAltIcon,
+    SymbolBubbleMessageChatIcon,
+    SymbolBubbleMessageMessageImTextIcon,
+    SymbolBubbleIcon,
+    SymbolCampgroundIcon,
+    SymbolCardiologyIcon,
+    SymbolCashierIcon,
+    SymbolCharityIcon,
+    SymbolCheckTickCheckmarkPunctuationCorrectGradeIcon,
+    SymbolCircleShapeGeometryIcon,
+    SymbolCloudWeatherButtRainIcon,
+    SymbolCropResizeIcon,
+    SymbolCrossDeleteRemoveMultiplyIcon,
+    SymbolCursorPointerMouseIcon,
+    SymbolDeniedRestrictedPrivateNoEntryIcon,
+    SymbolDownloadEnterEmergencyIcon,
+    SymbolDownstairsStairsIcon,
+    SymbolDropIcon,
+    SymbolElevatorIcon,
+    SymbolEntranceEnterEmergencyIcon,
+    SymbolEscalatorDownIcon,
+    SymbolEscalatorUpIcon,
+    SymbolEscalatorIcon,
+    SymbolExitLeaveEmergencyIcon,
+    SymbolExitIcon,
+    SymbolExternalShareLinkOutsideIcon,
+    SymbolEyePupilBigBrotherSurveillanceIcon,
+    SymbolEyeIcon,
+    SymbolFallingRocksIcon,
+    SymbolFileDocument.txtTextIcon,
+    SymbolFireIcon,
+    SymbolFirstAidIcon,
+    SymbolFolderContainerFileOpenIcon,
+    SymbolFolderIcon,
+    SymbolFoldersIcon,
+    SymbolGearSettingsPreferencesIcon,
+    SymbolGrainIcon,
+    SymbolHandIcon,
+    SymbolHeartHeartLoveLikeSaveIcon,
+    SymbolHospitalIcon,
+    SymbolInformationQuestionHelpIcon,
+    SymbolLeftChevronChevronLeftDirectionIcon,
+    SymbolLocationGpsGeoTrackIcon,
+    SymbolLotusIcon,
+    SymbolMetroIcon,
+    SymbolMoonWeatherShineBrightnessIcon,
+    SymbolNextIcon,
+    SymbolNoDogsIcon,
+    SymbolNoEntryDoNotEnterIcon,
+    SymbolNoParkingIcon,
+    SymbolNoSmokingIcon,
+    SymbolNoIcon,
+    SymbolNoteMusicCrotchetQuaverQuarterNoteIcon,
+    SymbolParkingIcon,
+    SymbolPinMapLocationPositionIcon,
+    SymbolPlayIcon,
+    SymbolPlusAddAdditionMathsOperatorsIcon,
+    SymbolPowerOnOffIcon,
+    SymbolPreviousIcon,
+    SymbolRecyclingIcon,
+    SymbolReloadReloadRefreshIcon,
+    SymbolResizeDimensionAdjustSizeIcon,
+    SymbolRightChevronChevronRightDirectionIcon,
+    SymbolSquareShapeGeometryStopIcon,
+    SymbolStairsIcon,
+    SymbolStarStarLikeSaveFavouriteIcon,
+    SymbolTelephoneVolumeControlIcon,
+    SymbolThumbnailsIcon,
+    SymbolToggleAdjustIcon,
+    SymbolTriangleEmptyIcon,
+    SymbolTriangleShapeGeometryIcon,
+    SymbolTunnelIcon,
+    SymbolUploadEnterEmergencyIcon,
+    SymbolZapIcon,
+    SymbolZoomInIcon,
+    SymbolZoomOutIcon,
+    Transport4WheelerAtvIcon,
+    TransportAirplaneAirportIcon,
+    TransportAmbulanceIcon,
+    TransportBikeCyclingBicycleTrailBikeIcon,
+    TransportBoatLaunchIcon,
+    TransportBusIcon,
+    TransportCamperTrailerIcon,
+    TransportCarAltIcon,
+    TransportCarRentalIcon,
+    TransportCarIcon,
+    TransportFerryBoatTourIcon,
+    TransportGondolaTramIcon,
+    TransportGroundTransportationIcon,
+    TransportHelicopterHeliportIcon,
+    TransportJeepIcon,
+    TransportPickupIcon,
+    TransportPlaneIcon,
+    TransportRvCamperIcon,
+    TransportSailBoatIcon,
+    TransportSeaPlaneAirplaneIcon,
+    TransportShipFerryIcon,
+    TransportTaxiCabIcon,
+    TransportTractorIcon,
+    TransportTrainRailTransportationIcon,
+    TransportTruckLorryIcon,
+    TransportTruckIcon,
+    TransportVespaIcon,
+};
